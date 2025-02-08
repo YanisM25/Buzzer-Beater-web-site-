@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+*
+{
+
+margin:0;
+padding: 0;
+box-sizing:border-box;
+font-family: 'Poppins', sans-serif;
+    
+}
+
+body
+
+{
+
+min-height:100vh; /*the minimum height of an element should be 100% of the viewport height*/
+background: linear-gradient(#5344A9,#7A5197,#BB5098,#F47F6B,#FFB32B,#F5C63C);
+
+
+}
+
+header
+
+{
+position: absolute;
+top:0;
+Left:0;
+width:100%;
+height:70px;
+padding: 10px 70px;
+display:flex;
+justify-content: space-between;
+background: purple; width: 100%; height: 10%;
+    
+
+
+
+}
+
+header .BrandName
+{
+    color: white;
+    font-weight: 700 ;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    Letter-spacing: 2px;
+    text-align: left;
+}
+
+header ul
+{
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+}
+
+
+header ul li
+
+{
+    list-style: none;
+    margin-left: 20px;
+
+}
+
+header ul li a
+{
+text-decoration:none;
+padding: 6px 5px;
+
+color: white;
+font-weight: 700;
+border-radius: 25px;
+}
+
+header ul li a:hover
+
+{
+background: white;
+color: #2b1055;
+}
+
+
+
+body
+{
+    background-image: url('bgsneakers1.png');
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#logo
+{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      
+
+}
+.photologo {
+    width: 300px; 
+    transition: transform 0.5s ease; 
+}
+
+.photologo:hover {
+    transform: scale(1.1);  
+}
+
+#TxtPrés{
+text-align: center;
+padding-bottom: 35px;
+color: white;
+background: #5344A9; position: center;width: 80%; height: 12%;margin-left: auto;margin-right: auto;
+opacity:0.8;
+
+
+
+}

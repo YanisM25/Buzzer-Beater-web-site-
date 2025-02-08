@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+
+
+*{
+
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+        
+    }
+    
+ 
+ header{
+    position: absolute;
+    top:0;
+    Left:0;
+    width:100%;
+    height:70px;
+    padding: 10px 70px;
+    display:flex;
+    justify-content: space-between;
+    background: purple; width: 100%; height: 10%;
+        
+    
+    
+    
+    }
+    
+    header .BrandName
+    {
+        color: white;
+        font-weight: 700 ;
+        text-decoration: none;
+        font-size: 2em;
+        text-transform: uppercase;
+        Letter-spacing: 2px;
+        text-align: left;
+    }
+    
+    header ul
+    {
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    }
+    
+    
+    header ul li
+    
+    {
+        list-style: none;
+        margin-left: 20px;
+    
+    }
+    
+header ul li a
+{
+text-decoration:none;
+padding: 6px 5px;
+
+color: white;
+font-weight: 700;
+border-radius: 25px;
+}
+
+header ul li a:hover
+
+{
+background: white;
+color: #2b1055;
+}
+
+
+#txt1{
+    text-align: center;
+    justify-content:center;
+    text-align: center;
+    color: white;
+    position: center;width: 80%; height: 12%;margin-left: auto;margin-right: auto;margin-top: 13%; opacity: 0,7;
+    background:  linear-gradient(to right,#057837,#032552);opacity: 90%;
+
+
+}
+#txt2{
+    text-align: center;
+    justify-content:center;
+    text-align: center;
+    color: whitesmoke;
+    position: center;width: 80%; height: 12%;margin-left: auto;margin-right: auto;margin-top: 13%; opacity: 0,7;
+    background:  linear-gradient( to right,#12173f,#5c76a9, #c4cfd5,#077dc7);opacity: 90%;
+
+
+}
+#txt3{
+    text-align: center;
+    justify-content:center;
+    text-align: center;
+    color: whitesmoke;
+    position: center;width: 80%; height: 12%;margin-left: auto;margin-right: auto;margin-top: 13%; opacity: 0,7;
+    background:  linear-gradient( to right,#2a5136,#057837,#cf152d);opacity: 90%;
+
+
+}
+#txt4{
+    text-align: center;
+    justify-content:center;
+    text-align: center;
+    color: whitesmoke;
+    position: center;width: 80%; height: 12%;margin-left: auto;margin-right: auto;margin-top: 13%; opacity: 0,7;
+    background:  linear-gradient( to right,#0269b8,#c7103e,#000000);opacity: 90%;
+
+
+}
+#txt5{
+    text-align: center;
+    justify-content:center;
+    text-align: center;
+    color: whitesmoke;
+    position: center;width: 80%; height: 12%;margin-left: auto;margin-right: auto;margin-top: 13%; opacity: 0,7;
+    background:  linear-gradient( to right,#153b82,#00728c);opacity: 90%;
+
+
+}
+#txt6{
+    text-align: center;
+    justify-content:center;
+    text-align: center;
+    color: whitesmoke;
+    position: center;width: 80%; height: 12%;margin-left: auto;margin-right: auto;margin-top: 13%; opacity: 0,7;
+    background:  linear-gradient( to right,#60318f,#000000);opacity: 90%;
+
+
+}
+#txt7{
+    text-align: center;
+    justify-content:center;
+    text-align: center;
+    color: whitesmoke;
+    position: center;width: 80%; height: 12%;margin-left: auto;margin-right: auto;margin-top: 13%; opacity: 0,7;
+    background:  linear-gradient( to right,#8c0126,#012b5d);opacity: 90%;
+
+
+}
+#txt8{
+    text-align: center;
+    justify-content:center;
+    text-align: center;
+    color: whitesmoke;
+    position: center;width: 80%; height: 12%;margin-left: auto;margin-right: auto;margin-top: 13%; opacity: 0,7;
+    background:  linear-gradient( to right,#17346c,#000000);opacity: 90%;
+
+
+}
+
+#photo{
+    position: center;width: 80%; height: 20%;
+    justify-content:center;
+    margin-left: auto;margin-right: auto;
+    
+
+
+
+
+
+}
+body
+{
+    background-image: url('bgsneakers1.png');
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+    
+    
+   
+
+
+}
+#hl_sneakers{
+color: white;
+
+text-decoration:none;
+padding: 6px 5px;
+
+font-weight: 700;
+
+
+}
+
+
+
+
+a:hover
+
+{
+background: #ffb32b;
+color: white;
+border-radius: 10px 100px / 120px;
+}
+
+
+.photologo {
+    width: 300px; 
+    transition: transform 0.5s ease; 
+}
+
+.photologo:hover {
+    transform: scale(1.1); 
+}
+
+#txt{
+    text-align: center;
+    justify-content:center;
+    text-align: center;
+    color: white;
+    position: center;width: 80%; height: 40%;margin-left: auto;margin-right: auto;margin-top: 13%;
+
+
+}
